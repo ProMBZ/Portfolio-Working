@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "../utils/cn";
@@ -18,20 +17,14 @@ function Navbar({ className }: { className?: string }) {
             </MenuItem>
             </Link>
             <MenuItem
-           setActive={setActive} active={active} item="My Projects"
+           setActive={setActive} active={active} item="My Skills"
             >
             <div className="flex flex-col space-y-4 text-sm">
-                <HoveredLink href="/projects">All Projects</HoveredLink>
-                <HoveredLink href="/projects">Bank System</HoveredLink>
-                <HoveredLink href="/projects">TODO App</HoveredLink>
-                <HoveredLink href="/projects">Student Managment System</HoveredLink>
-                <HoveredLink href="/projects">Adventure Game</HoveredLink>
-                <HoveredLink href="/projects">Calculator</HoveredLink> 
-                <HoveredLink href="/projects">ATM</HoveredLink>
-                <HoveredLink href="/projects">Currency Converter</HoveredLink>
-                <HoveredLink href="/projects">Guess The Number</HoveredLink>
-                <HoveredLink href="/projects">CountDownTimer</HoveredLink>
-                <HoveredLink href="/projects">Word Counter</HoveredLink>                                                                                                                               
+                <HoveredLink href="/projects">Next.js Developer</HoveredLink>
+                <HoveredLink href="/projects">Web Developer</HoveredLink>
+                <HoveredLink href="/projects">Graphic Designer</HoveredLink>
+                <HoveredLink href="/projects">Node.js Developer</HoveredLink>
+                 <HoveredLink href="/projects">Typescript Developer</HoveredLink>                                                                                                                         
             </div>
             </MenuItem>
             <Link href={"/contact"}>
