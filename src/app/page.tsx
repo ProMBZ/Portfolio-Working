@@ -1,7 +1,9 @@
 import FeatredProjects from "./components/FeatredProjects";
 import HeroSection from "./components/HeroSection";
+import UpcomingWebinars from "./components/UpcomingWebinars";
 import WhyChooseUs from "./components/WhyChooseUs"
 import PortfolioTestimonial from "./components/ui/TestimonialCards";
+import Instructor from "./components/Instructor";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
     <FeatredProjects />
     <WhyChooseUs />
     <PortfolioTestimonial />
+    <UpcomingWebinars />
+    <Instructor />
    </main>
   )
 }

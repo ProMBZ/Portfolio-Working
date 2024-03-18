@@ -11,18 +11,18 @@ function HeroSection() {
     >
          <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
-        fill="white"    // adjust the color in it
+        fill="#66FCF1"    // adjust the color in it
       />
     <div className="p-4 relative z-10 w-full text-center"
     >
      <h1
      className="mt-20 md:mt-0 text-4xl md:text-7xl
      font-bold bg-clip-text text-transparent
-     bg-gradient-to-b from-neutral-50 to-neutral-400"
+     bg-gradient-to-b from-neutral-50 to-neutral-400 "
      >lt&apos;s Muhammad</h1>
      <p
      className="mt-4 font-normal text-base md:text-lg
-     text-neutural-300 max-w-lg mx-auto"
+     text-neutural-300 max-w-lg mx-auto "
      >
 
 Muhammad bin Zohaib is a dynamic web developer
@@ -30,15 +30,10 @@ Muhammad bin Zohaib is a dynamic web developer
   With expertise in front-end and back-end development,
    he creates sleek websites and complex web applications. </p>
       <div className="mt-4">
-       <Link href={"/projects"}>
-            <Button
-            borderRadius="1.75rem"
-            className="bg-white dark:bg-black
-            text-balck dark:text-white
-            border-neutral-200 dark:border-slate-800"
-            >
-                Hire Me
-            </Button>
+       <Link target="_blank" href={"https://www.linkedin.com/in/muhammad-zohaib14151617-/"}>
+     <button className="shadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
+      Hire Me
+     </button>
        </Link>
       </div>
     </div>
@@ -48,3 +43,5 @@ Muhammad bin Zohaib is a dynamic web developer
 }
 
 export default HeroSection
+
+
