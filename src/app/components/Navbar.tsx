@@ -27,7 +27,7 @@ function Navbar({ className }: { className?: string }) {
                  <HoveredLink href="/projects">Typescript Developer</HoveredLink>                                                                                                                         
             </div>
             </MenuItem>
-            <Link href={"/contact"}>
+            <Link target="_blank" href={"/components/contact"}>
                 <MenuItem setActive={setActive} active={active}
                  item="Contact Us">
             

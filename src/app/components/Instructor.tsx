@@ -7,8 +7,8 @@ const instructors = [
      {
         id: 1,
         name: "Muhammad Bin Zohaib",
-        designation: "Web Developer ",
-        image: '/muhammad.png'
+        designation: "Backend Developer",
+        image: '/My Web Pic.jpeg'
      },
      {
         id: 2,
@@ -19,7 +19,7 @@ const instructors = [
          {
         id: 3,
         name: "Abu Bakar",
-        designation: "Web Designer",
+        designation: "Frontend Developer",
         image: '/abubakar.png'
      },
 ]
